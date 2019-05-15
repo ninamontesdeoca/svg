@@ -1,0 +1,28 @@
+/* cubic css */
+/* Hay una website con cubic de bezier que
+ la hizo la misma chica que el video de variables */
+/* se pueden hacer rebotes en el tiempo */
+ 
+ 
+
+.canguro {
+	background-image: url(steps.png);
+	/* ojo que tengo que definir el ancho que 
+	depende del canguro (un elemento de la tira).
+	Mostrar de a uno */
+	width: 500px;
+	height: 360px;
+	animation-name: saltar;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(12);
+	/* poner 10 fotogramas por segundo para que se crea la animación */
+}
+
+
+@keyframes saltar {
+	/* muevo la imagen en el eje x */
+	to {
+		background-position: -6000px 0;
+	}
+}

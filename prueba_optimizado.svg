@@ -1,0 +1,27 @@
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" width="640" height="480" style="enable-background:new 0 0 640 480">
+ 
+ <style>
+	.st0{
+		fill:#FFFF00;
+		stroke:#0000FF;
+		stroke-width:3;
+		stroke-miterlimit:10;
+	}
+	.st1{
+		fill:#00FFFF;
+		stroke:#0000FF;
+		stroke-width:3;
+		stroke-miterlimit:10;
+	}
+	.st2{
+		fill:#FCEE21;
+		stroke:#0000FF;
+		stroke-width:3;
+		stroke-miterlimit:10;
+	}
+ </style>
+  
+  <rect x="507.5" y="10.5" class="st1" width="121" height="206"/>
+  <polygon class="st2" points="287,289.94 200.29,263.484 129.338,319.916 127.705,229.274 52.11,179.233 137.811,149.67 162.042,62.312 216.642,134.682 307.212,130.732 255.256,205.023"/>
+  <polygon class="st0" points="323.459,333.021 354.005,263.898 429.141,255.79 473.73,316.805 443.185,385.928 368.049,394.036"/>
+</svg>

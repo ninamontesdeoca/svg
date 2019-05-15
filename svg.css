@@ -1,0 +1,25 @@
+/* svg css */
+
+
+/* 
+	la especificidad: el svg es un lenguaje. 
+	Por eso el css sobreescribe lo que dice html. 
+	En svg gana lo que NO esté en el elemento
+*/
+	
+	
+rect {
+	fill: purple;
+}
+
+rect:hover {
+	fill: red;
+}
+
+circle {
+	transition: transform 1s;
+}
+
+circle:hover {
+	transform: scale(1.2);
+}

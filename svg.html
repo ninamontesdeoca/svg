@@ -5,9 +5,23 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, inicial-scale=1.0"/>
 		<link href="svg.css" rel="stylesheet">
+		<style>
+			iframe {
+				border: none;
+				width:460px;
+				height: 460px;
+			}
+		</style>
 	</head>
 	<body>
 		<h1>Scalable Vector Graphics</h1>
+		<h1>insertar svg</h1>
+		<h2>como imagen</h2>
+			<img src="arbol.svg" alt="arbol">
+			<!-- funciona animación, no interaccion. usar css para mejorarlo. tengo que agregarle title -->
+		<h2>como iframe</h2>
+			<iframe src="arbol.svg" title="arbol"></iframe>
+			<!-- es interacción y animación -->
 		<svg>
 			<!-- Ojo que se basa en xhtml. Si me equivoco en algo, me arruina todo. -->
 			<!-- no tiene background, tiene fill. El border es stroke -->
